@@ -127,7 +127,7 @@ let firstCharCode = inputString2.charCodeAt(0);
 let lastCharCode = inputString2.charCodeAt(inputString2.length - 1);
 let swappedString = String.fromCharCode(lastCharCode) + inputString2.slice(1, -1) + String.fromCharCode(firstCharCode); 
 
-// printing all results
+// printing results
 console.log({
   firstCodePoint,
   thirdCodePoint,
